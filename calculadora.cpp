@@ -4,23 +4,19 @@ using namespace std;
 
 // el siguiente código implementa una calculadora científica en C++ que permite realizar operaciones matemáticas básicas y avanzadas.
 //  Funciones matemáticas básicas
-double suma(double a, double b)
-{
+double suma(double a, double b){
     return a + b;
 }
 
-double resta(double a, double b)
-{
+double resta(double a, double b){
     return a - b;
 }
 
-double multiplicacion(double a, double b)
-{
+double multiplicacion(double a, double b){
     return a * b;
 }
 
-double division(double a, double b)
-{
+double division(double a, double b){
     if (b != 0)
     {
         return a / b;
@@ -33,8 +29,7 @@ double division(double a, double b)
 }
 
 // Funciones matemáticas avanzadas
-double potencia(double base, double exponente)
-{
+double potencia(double base, double exponente){
     return pow(base, exponente);
 }
 
@@ -51,8 +46,7 @@ double raizCuadrada(double numero)
     }
 }
 
-double logaritmo(double numero)
-{
+double logaritmo(double numero){
     if (numero > 0)
     {
         return log10(numero);
@@ -64,8 +58,7 @@ double logaritmo(double numero)
     }
 }
 
-double logaritmoNatural(double numero)
-{
+double logaritmoNatural(double numero){
     if (numero > 0)
     {
         return log(numero);
@@ -77,8 +70,7 @@ double logaritmoNatural(double numero)
     }
 }
 
-void mostrarMenu()
-{
+void mostrarMenu(){
     cout << "\n=== CALCULADORA CIENTÍFICA ===" << endl;
     cout << "Operaciones disponibles:" << endl;
     cout << "+ : Suma" << endl;
@@ -93,8 +85,7 @@ void mostrarMenu()
     cout << "================================" << endl;
 }
 
-int main()
-{
+int main(){
     double num1, num2, resultado;
     char operacion;
     bool continuar = true;
