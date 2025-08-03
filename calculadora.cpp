@@ -2,7 +2,7 @@
 #include <cmath>
 using namespace std;
 
-// El codigo implementa una calculadora cinetífica en C++ permite la realización de operaciones matemáticas básicas y avanzadas.
+// Este codigo implementa una calculadora cinetífica permite la realización de operaciones matemáticas básicas y avanzadas.
 
 //  Funciones matemáticas básicas
 double suma(double a, double b){
@@ -199,4 +199,5 @@ int main(){
 
     return 0;
 }
+
 
